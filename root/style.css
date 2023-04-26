@@ -1,0 +1,218 @@
+body {
+  padding-left: 4em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: black;
+  background-color: lavender }
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+h2 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+h3 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+h4 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+table {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif;
+background-color: lavender }
+ul.navbar {
+list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: left;
+    top: 1em;
+    right: 5em;
+    width: 20em }
+ ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+  ul.navbar a {
+    text-decoration: none }
+  a:link {
+    color: blue }
+  a:visited {
+    color: purple }
+u2.navbar {
+list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: left;
+    top: 1em;
+    left: 35em;
+    width: 20em }
+u2.navbar ll {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+  u2.navbar a {
+    text-decoration: none }
+  a:link {
+    color: blue }
+  a:visited {
+    color: purple }
+table {
+  border: solid 1px black;
+  border-collapse: collapse;
+  background-color:  rgb(239, 163, 239);
+}
+tr {
+  border: solid 1px black;
+}
+th {
+  border: solid 1px black;
+}
+#register{
+  padding: 10px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  border: 20px double  black;
+  width: 70%;
+  height: 100%;
+  background-color: plum;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+.forms{
+  margin-bottom: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+legend{
+  font-weight: bold;
+  color: black;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+  height: 25px;
+  width: 215px;
+  border-radius: 5px;
+  border: 1px solid white;
+  box-shadow: 0 0 15px 4px violet;
+}
+.check{
+  display: flex;
+  margin-top: 9px;
+}
+.checkbox{
+  width: 20px;
+  margin-right: 10px;
+}
+button{
+  margin-top:10px ;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: purple;
+  font-weight: bold;
+}
+.date{
+  height: 40px;
+  width: 215px;
+  border: 1px solid white;
+}
+
+
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.ModalContent{
+  background-color: violet;
+  margin: 15% auto;
+  border: 1px solid var(--textColor);
+  min-width: 300px;
+  width: 30%;
+  height: auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ModalContent>form{
+  padding: 25px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ModalContent>form>H1{
+  align-self: center;
+  font-size: 40;
+}
+.CloseModal{
+  color: purple;
+}
+.ButtonsModal{
+  display: flex;
+  justify-content: center;
+}
+.OK{
+  width: 110px;
+}
+.Cont{
+  width: 150px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.zagolovok{
+  background-color: violet;
+  cursor: pointer;
+  width: 100%;
+  padding: 18px;
+  text-align: left;
+  outline: none;
+  border: none;
+  transition: 0.4s;
+}
+
+.zagolovok:hover{
+  background-color: var(--textColor);
+}
+
+.zagolovok.active{
+  background-color: violet;
+  color:rgba(0, 0, 0, 0.8);
+}
+
+.inform{
+  padding: 0.18px;
+  background-color: rgb(239, 163, 239);
+  display:none;
+}
+
+.inform>p{
+  margin-bottom: 0;
+}
+.inform.show{
+  display: block;
+}
+
+
